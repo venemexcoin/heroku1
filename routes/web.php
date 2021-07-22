@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\PortafolioComponent;
+use App\Http\Livewire\PortafolioDetailComponent;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,10 @@ use App\Http\Livewire\HomeComponent;
 // });
 
 Route::get('/', HomeComponent::class);
+
+Route::get('/portafolio',PortafolioComponent::class)->name('portafolio');
+Route::get('/portafolio/detail', PortafolioDetailComponent::class)->name('portafolio/detail');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
