@@ -19,3 +19,6 @@ use App\Http\Livewire\HomeComponent;
 // });
 
 Route::get('/', HomeComponent::class);
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
