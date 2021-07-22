@@ -20,9 +20,9 @@ use App\Http\Livewire\PortafolioDetailComponent;
 //     return view('welcome');
 // });
 
-Route::get('/', HomeComponent::class);
+Route::get('/home', HomeComponent::class);
 
-Route::get('/portafolio',PortafolioComponent::class)->name('portafolio');
+Route::get('/',PortafolioComponent::class)->name('portafolio');
 Route::get('/portafolio/detail', PortafolioDetailComponent::class)->name('portafolio/detail');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
