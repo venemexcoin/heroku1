@@ -2,15 +2,15 @@ body font family Poppins sans
 
 container position relative width hidden
 
-navigation position fixed width height border right
+navigation position fixed width height 
 
-background var display flex serif overflow
+right background display flex serif 
 
-justify content center align its center overflow 
-   
-hidden transition width  left 
+overflow justify content center align 
 
-dark navigation border right
+center overflow hidden transition width 
+
+left dark navigation border right
 
 navigation active width
 
@@ -81,82 +81,60 @@ align its center font size
 
 color var  black
 
-section 
-    position relative
-    min height vh
+section position relative
 
-banner 
-    display flex
-    justify content center
-    align its center
-    padding  
+min_height banner display flex
 
-banner content 
-    display flex
-    flex direction column
-    justify content center
-    align its center
+justify content align item center
 
-banner imgBx 
-    position relative
-    width 
-   height 
-   overflow hidden
-   border radius %
-   margin bottom
+padding  banner content display flex
 
-banner imgBx img 
-    position absolute
-    top 
-    left 
-    width 
-    height 
-    object fit contain
+flex direction column justify content 
 
-h 
-    position relative
-    font size 
-    color var  black
-    letter spacing 
-    text transform uppercase
+center align item center
 
-p 
-    color 
+banner imgBx position relative
+    
+width height overflow hidden
 
-dark p 
-    color var  black
+border radius margin bottom
 
-btn 
-    position relative
-    display inline block
-    padding  
-    background var  black
-    color 
-    font weight 
-    letter spacing 
-    margin top 
-    text decoration none
+banner imgBx img position absolute
 
-dark btnhover 
-    background f
+top left width height object 
 
-socialMedia 
-    position absolute
-    bottom 
-    display flex
+fit contain position relative
 
-socialMedia li 
-    list style none
+font size color var black
 
-socialMedia li a 
-    display inline block
-    width 
-    height 
-    background rgba     
-    margin 
-    display flex
-    justify content center
-    align its center
+letter spacing text transform 
+
+uppercase color dark color black
+
+btn position relative display inline 
+
+block padding  background var  black
+
+color font weight letter spacing
+
+margin top text decoration none
+
+dark btnhover background 
+
+socialMedia position absolute
+    
+bottom display flex
+
+socialMedia list style none
+
+socialMedia li a display inline 
+
+block width height
+
+background rgba margin display flex
+
+justify content center align center
+
     text decoration none
     color var  black
     font size 
