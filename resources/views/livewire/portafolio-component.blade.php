@@ -856,7 +856,7 @@
                 
                     <div class="testimonialsBox">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/user1.jpg')}}" alt="">
+                            <img src="{{asset('assets/img/portafolio/user1.jpg')}}" alt="foto_del_cv">
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat omnis fugiat, dolor cupiditate inventore illum sed laboriosam odit aut est in iusto voluptates rerum perferendis? Placeat ex veritatis quidem in.</p>
                         <h4>Someone Famouse<br><span>Website Designer</span></h4>
@@ -873,12 +873,12 @@
                 </div>
                 <div class="contactForm">
                     <div class="row">
-                        <input type="text" name="" placeholder="First Name">
-                        <input type="text" name="" placeholder="Last Name">
+                        <input type="text" name="firstname" placeholder="First Name">
+                        <input type="text" name="lasname" placeholder="Last Name">
                     </div>
                     <div class="row">
-                        <input type="text" name="" placeholder="Email Address">
-                        <input type="text" name="" placeholder="Mobile N.">
+                        <input type="text" name="email" placeholder="Email Address">
+                        <input type="text" name="mobil" placeholder="Mobile N.">
                     </div>
                     <div class="row2">
                         <textarea placeholder="Message"></textarea>
