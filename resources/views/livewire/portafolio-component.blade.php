@@ -18,6 +18,9 @@
      --white: #fff;
      --white2: #fff;
      --prueba: rgb(248, 3, 3);
+     --linkedin: #007bb5;
+     --facebook: #3b5998;
+     --twitter: #55acee;
  }
 
  .dark 
@@ -206,6 +209,7 @@
  .socialMedia li {
      list-style: none;
  }
+ 
  .socialMedia li a {
      display: inline-block;
      width: 40px;
@@ -219,10 +223,22 @@
      color: var(--black);
      font-size: 1.2em;
  }
- .dark .socialMedia li a:hover {
-     background: #2196f3;
+ .dark .socialMedia .linkedin a:hover {
+     background: var(--linkedin);
  }
- .socialMedia li a:hover {
+ .socialMedia .linkedin a:hover {
+     background: var(--linkedin);
+     color: #fff;
+ }
+ .socialMedia .facebook a:hover {
+     background: var(--linkedin);
+     color: #fff;
+ }
+ .socialMedia .twitter a:hover {
+     background: var(--twitter);
+     color: #fff;
+ }
+ .socialMedia .github a:hover {
      background: var(--black2);
      color: #fff;
  }
@@ -266,6 +282,12 @@
  .about .content .textBox {
      width: 49%;
      min-width: 49%;
+ }
+ .about .content .textBox span {
+     margin-left: 7px;
+ }
+ .about .content .textBox p {
+     text-align:left;
  }
  .about .content .imgBx {
      margin-left: 50px;
@@ -641,13 +663,13 @@
                             <img src="{{asset('assets/img/portafolio/img1yo.jpeg')}}" alt="Foto de perfil">
                         </div>
                         <h3>Eduardo Liendo</h3>
-                        <p>I'm a Creative Back End Web Developer.</p>
+                        <p>Soy desarrolladora web creativa de back-end. </p>
                         <a href="{{route('portafolio/detail')}}" class="btn">Download My CV</a>
                         <ul class="socialMedia">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/eduardo-liendo-152243120/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="https://github.com/venemexcoin"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="linkedin"><a href="https://www.linkedin.com/in/eduardo-liendo-152243120/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="github"><a href="https://github.com/venemexcoin"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </section>
@@ -655,11 +677,21 @@
                 {{-- about --}}
                <section class="about adjust" id="about">
                     <div class="title">
-                        <h2>About Me</h2>
+                        <h2>Sobre mi</h2>
                     </div>
                     <div class="content">
                         <div class="textBox">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem suscipit amet asperiores dolorem voluptas, esse minus ad culpa pariatur assumenda voluptatum? Maiores facere, molestias aliquam consequatur provident quasi earum autem odio, inventore mollitia sed sit nisi beatae cupiditate, cum alias sint in itaque aliquid. Harum explicabo doloremque non sed at expedita illum a blanditiis ullam quas, molestiae quaerat repudiandae nisi laborum consequuntur totam.<br><br> Dicta quos reiciendis minus in ex vero doloremque placeat ad dolorum labore voluptates quam, error magni consequatur facilis eius exercitationem est maiores omnis, recusandae laudantium nostrum saepe. Consequatur, autem? Cumque, cupiditate. Vero praesentium laboriosam totam tempora. </p>
+                            <p><span>Programador</span> web con más de 2 años de trayectoria desarrollando en los Framework laravel y React. A lo largo de estos años, 
+                                he tenido el privilegio de formar parte en la creación de webs como Chamocell.com, Venemexcoin.com, IusacellGSM.com y unefonGSM.com .
+                                Las cuales han cultivado un gran éxito, tanto en tráfico como en conversiones. Busco formar parte de un Equipo, en Sistemas de 
+                                desarrollo para web y para impulsar mi capacidad creativa al siguiente nivel, aportando mis amplios conocimientos en <b>CSS,
+                                html y JavaScript</b>.
+                                <br><br> 
+                                <span>En</span> resumen soy un programador incansable y lleno de ideas frescas en programación, mi formación profesional son múltiples cursos en
+                                <b> Google Actíivate y Fundacion Carlos Slim</b> , como hago notar en mi perfil de linkedin.com.
+                                Junior con el objetivo de poner en práctica mis habilidades de HTML,CSS,JavaScript, PHP y proporcionarle a los usuarios de la empresa la mejor experiencia digital.
+                                
+                             </p>
                         </div>
                         <div class="imgBx">
                             <img src="{{asset('assets/img/portafolio/imgMedio2.png')}}" alt="Perfil">

@@ -1,0 +1,553 @@
+body font family Poppins sans 
+
+container position relative width hidden
+
+navigation position fixed width height border right
+
+background var display flex serif overflow
+
+justify content center align its center overflow 
+   
+hidden transition width  left 
+
+dark navigation border right
+
+navigation active width
+
+navigation ul position relative top
+
+left width padding
+
+navigation ul li position relative 
+
+width list stylenone
+
+navigation ul li a
+
+position relative display block width margin  
+
+white space normal display flex
+    
+text transform uppercase text decoration 
+
+none color var  black
+
+font weight letter spacing opacity 
+
+navigation ul li ahover opacity 
+
+main position absolute width calc   
+
+left background var  white min 
+
+height vh transitionwidth  left 
+    
+mainactive width calc left 
+
+main topbar position fixed top
+
+width calc left background var  
+
+white border bottom  solid rgba
+
+height padding display flex
+
+justify contentspace between align and
+
+lits center z-index transition width  left 
+
+
+dark main topbar border bottom  
+
+solid rgba main topbar active 
+   
+width calc left 
+ 
+main topbar logo color var  
+
+black font weight text decoration 
+
+none font size text transform uppercase
+    
+letter spacing  
+
+main topbar toggle position relative
+    
+width height cursor pointer
+
+display flex justify contentcenter
+    
+align its center font size
+
+color var  black
+
+section 
+    position relative
+    min height vh
+
+banner 
+    display flex
+    justify content center
+    align its center
+    padding  
+
+banner content 
+    display flex
+    flex direction column
+    justify content center
+    align its center
+
+banner imgBx 
+    position relative
+    width 
+   height 
+   overflow hidden
+   border radius %
+   margin bottom
+
+banner imgBx img 
+    position absolute
+    top 
+    left 
+    width 
+    height 
+    object fit contain
+
+h 
+    position relative
+    font size 
+    color var  black
+    letter spacing 
+    text transform uppercase
+
+p 
+    color 
+
+dark p 
+    color var  black
+
+btn 
+    position relative
+    display inline block
+    padding  
+    background var  black
+    color 
+    font weight 
+    letter spacing 
+    margin top 
+    text decoration none
+
+dark btnhover 
+    background f
+
+socialMedia 
+    position absolute
+    bottom 
+    display flex
+
+socialMedia li 
+    list style none
+
+socialMedia li a 
+    display inline block
+    width 
+    height 
+    background rgba     
+    margin 
+    display flex
+    justify content center
+    align its center
+    text decoration none
+    color var  black
+    font size 
+
+dark socialMedia li ahover 
+    background f
+
+socialMedia li ahover 
+    background var  black
+    color 
+
+adjust 
+    position relative
+    min height vh
+    width 
+    padding  
+    padding top 
+    background var  white
+    color var  black
+    display inline block
+
+title 
+    width 
+    text align center
+   
+
+title h 
+    position relative
+    text transform uppercase
+    letter spacing 
+    font size 
+    margin bottom 
+
+title hbefore 
+    content ''
+    position absolute
+    left %
+    transform translateX %
+    bottom  
+    width 
+    height 
+    background var  black
+
+about content 
+    display flex
+    justify contentspace between
+    margin top 
+
+about content textBox 
+    width %
+    min width %
+
+about content imgBx 
+    margin left 
+
+about content imgBx 
+    margin left 
+
+about content imgBx img 
+    max width 
+
+services content 
+    display grid
+    grid tplate columns repeat  fr
+    grid gap 
+    margin  
+
+services content serviceBox 
+    border  solid rgba      
+    padding  
+    display flex
+    background var  white
+    justify contentcenter
+    align its center
+    flex direction column
+
+dark services content serviceBoxhover 
+    background f
+
+services content serviceBox img 
+    max width 
+
+dark services content serviceBox img 
+
+
+services content serviceBox h 
+    font size 
+    margin top 
+    margin bottom 
+    font weight 
+    color var  black
+    text align center
+    letter spacing 
+   text transform uppercase
+
+services content serviceBox p 
+    text align center
+
+projects content 
+
+   display grid
+    grid tplate columns repeat  fr
+    grid gap 
+    margin  
+
+projects content workBx 
+    position relative
+    width 
+    height 
+    overflow hidden
+
+projects content workBx img 
+    position relative
+    width 
+    height 
+    transform translateY
+    transition s ease in out
+ 
+projects content workBxhover imgBx 
+   transform translateY 
+
+projects content workBx imgBx  img 
+    position absolute
+    top 
+    left 
+    width 
+    height 
+    object fit cover
+
+projects content workBx textBx 
+    position absolute
+    top 
+    left 
+    width 
+    height 
+    background var  black
+    display flex
+    justify content center
+    align its center
+    transform translateY
+    transition s ease in out
+
+dark projects content workBx textBx 
+    background 
+
+projects content workBxhover textBx 
+   transform translateY
+
+projects content workBx textBx h 
+    Color 
+    font size 
+
+tstimonials content 
+   display grid
+    grid tplate columns repeat fr
+    grid gap 
+    margin  
+
+tstimonials content testimonialsBox
+    background var  white
+    border  solid rgba    
+    box shadow    rgba     
+    padding 
+
+dark tstimonials content testimonialsBoxhover 
+    background f
+
+tstimonials content testimonialsBox imgBx 
+    position relative
+    width 
+    height 
+    margin bottom 
+
+tstimonials content testimonialsBox imgBx img 
+    position absolute
+    top 
+    left 
+    width 
+    height 
+    object fit cover
+
+tstimonials content testimonialsBox p 
+    font style italic
+
+tstimonials content testimonialsBox h 
+    text align right
+    margin top 
+    text transform uppercase
+    letter spacing 
+    font size
+    color var  black
+    line height 
+    font weight 
+    border right  solid var  black
+    padding right 
+
+tstimonials content testimonialsBox h span 
+    text transform initial
+    color aaa
+    letter spacing 
+    font weight 
+    font size 
+
+contact 
+    display flex
+    justify contentflex start
+    align its center
+    flex direction column
+
+contact contactForm 
+    position relative
+    width 
+    max width 
+    margin top 
+
+contact contactForm row 
+    width 
+   display grid
+    grid tplate columns repeat fr
+    grid gap 
+    margin top 
+
+contact contactForm row 
+    width 
+    display flex
+    justify content center
+    align its center
+    margin top 
+    
+
+contact contactForm row input 
+contact contactForm row textarea 
+    width 
+    padding 
+    border none
+    outline none
+    color var  black
+    background var  white
+    font size 
+    border  solid rgba   
+
+contact contactForm row textarea 
+    resize none
+    height 
+
+contact contactForm row input type=submit 
+
+    background var  black
+    color 
+    padding  
+    display inline block
+    font weight 
+    letter spacing 
+    cursor pointer
+    font size 
+    text transform uppercase
+    max width 
+    border none
+    margin bottom 
+
+contact contactForm row input type=submit hover 
+   background f
+
+copyright 
+    position relative
+    bottom 
+    padding  
+    text align center
+    margin bottom 
+
+
+/* Dark and Light mode switch */
+
+theSwitch 
+    position absolute
+    bottom 
+    left 
+    width 
+    height 
+    background var  black
+    color var  white
+    cursor pointer
+    border radius %
+    display flex
+    justify contentcenter
+    align its center
+
+
+theSwitchbefore
+
+    content \f
+    font family fontAwesome
+
+dark theSwitchbefore 
+   content \f
+    font family fontAwesome
+ 
+theSwitchafter 
+    content 'Switch To Night Mode'
+    position absolute
+    left 
+    font size 
+    color var  black
+    white space nowrap
+    font weight 
+    letter spacing 
+    pointer events none
+
+
+dark theSwitchafter 
+   content 'Switch To Day Mode'
+
+
+/* Now  Make it resposive */
+
+@media max width 
+
+    theSwitch 
+        left 
+    
+    navigation 
+        left  
+    
+    navigationactive 
+        left 
+        width 
+    
+    main 
+        width  
+        left 
+    
+    mainactive 
+        left 
+    
+    main topbar 
+       width 
+       left 
+       padding  
+    
+   navigation ul 
+       padding  
+   
+   banner imgBx 
+       width 
+       height 
+   
+   banner h 
+   banner p 
+       text align center
+   
+   adjust
+   
+       padding  
+       padding top  
+   
+   about content 
+       flex direction column
+   
+   about content textBox
+       width 
+       min width 
+   
+   about content imgBx 
+       margin left 
+       margin top 
+   
+   services content 
+       grid tplate columns repeat fr 
+   
+   projects content 
+       grid tplate columns repeat fr 
+   
+  
+
+@media max width 
+
+   services content 
+       grid tplate columns repeat fr 
+   
+   projects content 
+       grid tplate columns repeat fr 
+   
+   tstimonials content 
+       grid tplate columns repeat fr 
+   
+   contact contactForm row 
+       grid tplate columns repeat fr  
+   
+   contact 
+       margin bottom  
+   
+   copyright 
+       padding  
+   
