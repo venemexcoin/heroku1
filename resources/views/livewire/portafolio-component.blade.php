@@ -662,7 +662,7 @@
                         <div class="imgBx">
                             <img src="{{asset('assets/img/portafolio/img1yo.jpeg')}}" alt="Foto de perfil">
                         </div>
-                        <h3>Eduardo Liendo</h3>
+                        <h3>Eduardo Liendo Berroteran</h3>
                         <p>Desarrolladora web creativa de back-end. </p>
                         <a href="{{route('portafolio/detail')}}" class="btn">Download My CV</a>
                         <ul class="socialMedia">
