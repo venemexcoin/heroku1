@@ -892,7 +892,7 @@
                {{-- Copyright Text --}}
 
                <div class="copyright">
-                   <p>Copyright &copy; 2021 online tutorials. All Reght Reserved.</p>
+                   <p>Copyright &copy; 2021 ChamocellDeveloper. All Reght Reserved.</p>
                </div>
             </div>
     </div>
