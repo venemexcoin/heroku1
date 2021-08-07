@@ -747,7 +747,7 @@
                 <div class="content">
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg1.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg1.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://auth-firebase-d6015.web.app/login"><h3>Auth CRUD Tarea</h3></a>
@@ -755,7 +755,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg2.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg2.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://slideshowreract.netlify.app/"><h3>Slider</h3></a>
@@ -763,7 +763,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg3.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg3.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://validacionformulario.netlify.app/"><h3>Validacion JS</h3></a>
@@ -771,7 +771,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg4.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg4.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://primerdesplige.netlify.app/"><h3>CRUD DataMovil</h3></a>
@@ -779,7 +779,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg5.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg5.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://happy-jackson-3670ef.netlify.app/"><h3>CRUD DataMovil</h3></a>
@@ -787,7 +787,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg6.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg6.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://compassionate-knuth-e32ab9.netlify.app/"><h3>Calculara Cipto</h3></a>
@@ -795,7 +795,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg7.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg7.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <a href="https://thirsty-dubinsky-d27e2c.netlify.app/"><h3>Auto Precio</h3></a>
@@ -803,7 +803,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg8.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/pimg8.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <h3>Projet 08</h3>
