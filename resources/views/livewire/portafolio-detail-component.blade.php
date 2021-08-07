@@ -134,7 +134,9 @@
         background: #03a9f4;
     } 
 
-
+    .contactInfo a {
+        text-decoration: none;
+    }
     .container .right_Side {
         position: relative;
         background: #fff;
@@ -152,9 +154,13 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         margin-bottom: 10px;
+        align-items: justify;
     }
     p {
         color: #333;
+    }
+    p .profile {
+    text-align: justify;
     }
     .about .box {
         display: flex;
@@ -267,23 +273,23 @@
                 <ul>
                     <li>
                         <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                        <span class="text">+1 234 5678 900</span>
+                        <span class="text">+52 5514674480 </span>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <span class="text">john_doe@email.com</span>
+                        <span class="text">eduarlien@gmail.com</span>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                        <span class="text">www.mywebsite.com</span>
+                        <span class="text">https://herokuproy1.herokuapp.com/</span>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                        <span class="text">www.linkedin.com</span>
+                        <a href="https://www.linkedin.com/in/eduardo-liendo-152243120/"><span class="text">www.linkedin.com</span></a>
                     </li>
                     <li>
                         <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                        <span class="text">Patna, Bihar, India</span>
+                        <span class="text">México, CDMX</span>
                     </li>
                 </ul>
             </div>
@@ -292,19 +298,19 @@
                 <h3 class="title">Education</h3>
                 <ul>
                     <li>
-                        <h5>2010 - 2013</h5>
-                        <h4>Master Degree in Computer Science</h4>
-                        <h4>University Name</h4>
+                        <h5>1981 - 1987</h5>
+                        <h4>Escuela Chavez Ricaurte</h4>
+                        <h4>Primaria</h4>
                     </li>
                     <li>
-                        <h5>2007 - 2010</h5>
-                        <h4>Bachelor Degree in Computer Science</h4>
-                        <h4>University Name</h4>
+                        <h5>1987 - 1992</h5>
+                        <h4>Liceo Cultura</h4>
+                        <h4>Secundaria</h4>
                     </li>
                     <li>
-                        <h5>1997 - 2007</h5>
-                        <h4>Matriculation</h4>
-                        <h4>University Name</h4>
+                        <h5>1992 - 1995</h5>
+                        <h4>Electricista de Mantenimiento</h4>
+                        <h4>Carrera Tecnica</h4>
                     </li>    
                 </ul>
             </div>
@@ -324,12 +330,12 @@
                             <div style="width: 90%;"></div>
                          </span>
                      </li>
-                     <li>
+                     {{-- <li>
                         <span class="text">Paja</span>
                          <div class="percent">
                             <div style="width: 58%;"></div>
                          </div>
-                     </li>
+                     </li> --}}
                 </ul>       
             </div>
                 
@@ -337,40 +343,54 @@
         <div class="right_Side">
             <div class="about">
                 <h2 class="title2">Profile</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eligendi? Sapiente facere fugit itaque in labore molestiae corporis recusandae illo quas labore! commodi error fuga! Quasi incidunt, ex voluptatem atque animi inventore iusto fugiat.<br><br> eveniet commodi et debitis consequuntur sunt deleniti soluta dolore modi excepturi quia reiciendis nisi eligendi! Minus qui quas, aliquam ipsa quasi laboriosam harum architecto saepe at labore?</p>
+                        <p class="profile">Me considero una persona emprendedora y con gran capacidad de análisis. Ya, con varios años de experiencias
+                     de trabajo en varios rublos de tecnologia, tengo las habilidades y aptitudes necesarias para solucionar problemas complejos,
+                      porponiendo soluciones eficientes y permanentes que den resultados a corto plazo. Además me gusta el trabajo en 
+                      equipo y soy muy compañero.<br/><br/>
+                    De mis cualidades destaco mi perseverancia y el profesionalismo que tengo cuando encaro nuevos proyectos.
+                     Con mi larga experiencia de trabajo puedo aportar a la empresa sabiduría en mis funciones y ejercer tareas 
+                     acorde a mi profesión sin presión y estrés, en un ambiente relajado. Siempre dispuesto a dejarlo todo en cada 
+                     trabajo que tenga que cumplir.</p>
             </div>
             <div class="about">
                 <h2 class="title2">Experience</h2>
                 <div class="box">
                     <div class="year_company">
-                        <h5>2019 - Present</h5>
-                        <h5>Company Name</h5>
+                        <h5>2021 - Present</h5>
+                        <h5>Google Actívate</h5>
                     </div>
                     <div class="text">
-                        <h4>Senior UX Designer</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae sapiente aut libero cumque recusandae ratione, officia impedit nulla ad, commodi nisi magnam totam corrupti fugit? Reiciendis laboriosam vero amet!</p>
+                        <h4>Introducción al desarrollo web1</h4>
+                        <p>conceptos básicos para iniciarte en el fascinante mundo de la Ingeniería de Software para aplicaciones web. 
+                            conceptos fundamentales de estructura, contenido y presentación de una página web, para luego 
+                            centrarnos en la sintaxis del lenguaje de marcas HTML y en el uso de las etiquetas para crear títulos, párrafos, 
+                            listas, enlaces, imágenes y formularios.</p>
                     </div>
                 </div>
 
                 <div class="box">
                     <div class="year_company">
-                        <h5>2019 - 2019</h5>
-                        <h5>Company Name</h5>
+                        <h5>2021</h5>
+                        <h5>Google Actívate</h5>
                     </div>
                     <div class="text">
-                        <h4>Senior UX Designer</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae sapiente aut libero cumque recusandae ratione, officia impedit nulla ad, commodi nisi magnam totam corrupti fugit? Reiciendis laboriosam vero amet!</p>
+                        <h4>Introducción al desarrollo web (1/2)</h4>
+                        <p>Métodos avanzados del correcto uso etiquetas HTML y CSS. Practicas y estructuras, recuezo 
+                            que te permiten depurar si sitios web, con el estándar de la W3C
+                        </p>
                     </div>
                 </div>
 
                 <div class="box">
                     <div class="year_company">
-                        <h5>2016 - 2016</h5>
-                        <h5>Company Name</h5>
+                        <h5>2021</h5>
+                        <h5>Google Actívate</h5>
                     </div>
                     <div class="text">
-                        <h4>Junio UX Designer</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae sapiente aut libero cumque recusandae ratione, officia impedit nulla ad, commodi nisi magnam totam corrupti fugit? Reiciendis laboriosam vero amet!</p>
+                        <h4>Desarrollo de Apps Móviles</h4>
+                        <p>Introducción al desarrollo de aplicaciones móviles, conceptos, historia, estructuras, modelado y herramientas más usadas 
+                             en desarrollo UI/UX en dispositivos móviles. 
+                            </p>
                     </div>
                 </div>
             </div>
@@ -394,34 +414,35 @@
                         <div style="width: 70%;"></div>
                     </div>
                 </div>
+                
+                <div class="box">
+                    <h4>Laravel</h4>
+                    <div class="percent">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>React</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
                 <div class="box">
                     <h4>Photoshop</h4>
                     <div class="percent">
                         <div style="width: 50%;"></div>
                     </div>
                 </div>
-                <div class="box">
-                    <h4>Illustrator</h4>
-                    <div class="percent">
-                        <div style="width: 12%;"></div>
-                    </div>
-                </div>
-                <div class="box">
-                    <h4>Adobe XD</h4>
-                    <div class="percent">
-                        <div style="width: 8%;"></div>
-                    </div>
-                </div>
 
             </div>
 
             <div class="about interest">
-                <h2 class="title2">Interest</h2>
+                <h2 class="title2">intereses</h2>
                 <ul>
                     <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
-                    <li><i class="fa fa-microphone" aria-hidden="true"></i> Singing</li>
-                    <li><i class="fa fa-book" aria-hidden="true"></i> Reading</li>
-                    <li><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i></i> Musica</li>
+                    <li><i class="fa fa-book" aria-hidden="true"></i> Lectura</li>
+                    <li><i class="fa fa-cutlery" aria-hidden="true"></i> Comida</li>
                 </ul>
             </div> 
                 

@@ -644,7 +644,7 @@
                 <li><a href="#about" onclick="toggleMenu();">Sobre Mi</a></li>
                 <li><a href="#services" onclick="toggleMenu();">Avilidades</a></li>
                 <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
-                <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+                {{-- <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li> --}}
                 <li><a href="#contect" onclick="toggleMenu();">Contect</a></li>
             </ul>
             <div class="themeSwitch"></div>
@@ -803,7 +803,7 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/pimg8.png')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/img8.jpg')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <h3>Projet 08</h3>
@@ -821,7 +821,7 @@
                </section> 
 
                {{-- testimonials --}}
-               <section class="tstimonials adjust" id="testimonials">
+               {{-- <section class="tstimonials adjust" id="testimonials">
                 <div class="title">
                     <h2>Testimonials</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -862,14 +862,14 @@
                         <h4>Someone Famouse<br><span>Website Designer</span></h4>
                     </div>
                 </div>
-               </section>
+               </section> --}}
 
                {{-- Contact --}}
 
                <section class="contact adjust" id="contect">
                 <div class="title">
-                    <h2>Let's Say Hi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h2>Gracias Por ver mi CV</h2>
+                    <p>Estamos A tu orden para propuestas de trabajo contáctame.</p>
                 </div>
                 <div class="contactForm">
                     <div class="row">
