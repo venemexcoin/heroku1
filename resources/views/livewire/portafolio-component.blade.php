@@ -358,6 +358,9 @@
  .projects .content .workBx:hover .imgBx {
     transform: translateY(-100%);
  }
+ .projects .content .textBx  a {
+     text-decoration: none;
+ }
  .projects .content .workBx .imgBx  img {
      position: absolute;
      top: 0;
