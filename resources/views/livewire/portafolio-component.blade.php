@@ -18,7 +18,7 @@
      --white: #fff;
      --white2: #fff;
      --prueba: rgb(248, 3, 3);
-     --linkedin: #007bb5;
+     --linkedin: #0A66C2;
      --facebook: #3b5998;
      --twitter: #55acee;
  }
@@ -231,7 +231,7 @@
      color: #fff;
  }
  .socialMedia .facebook a:hover {
-     background: var(--linkedin);
+     background: var(--facebook);
      color: #fff;
  }
  .socialMedia .twitter a:hover {
@@ -641,8 +641,8 @@
         <div class="navigation">
             <ul>
                 <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
-                <li><a href="#about" onclick="toggleMenu();">About</a></li>
-                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#about" onclick="toggleMenu();">Sobre Mi</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Avilidades</a></li>
                 <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
                 <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
                 <li><a href="#contect" onclick="toggleMenu();">Contect</a></li>
@@ -663,7 +663,7 @@
                             <img src="{{asset('assets/img/portafolio/img1yo.jpeg')}}" alt="Foto de perfil">
                         </div>
                         <h3>Eduardo Liendo</h3>
-                        <p>Soy desarrolladora web creativa de back-end. </p>
+                        <p>Desarrolladora web creativa de back-end. </p>
                         <a href="{{route('portafolio/detail')}}" class="btn">Download My CV</a>
                         <ul class="socialMedia">
                             <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -701,39 +701,39 @@
                 {{-- Services --}}
                <section class="services adjust" id="services">
                 <div class="title">
-                    <h2>Our Services</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h2>Avilidades</h2>
+                    <p>Resumen de habilidades más notorias de mi experiencia.</p>
                 </div>
                 <div class="content">
                     <div class="serviceBox">
                         <img src="{{asset('assets/img/portafolio/icon1.png')}}" alt="img Web Design">
                         <h2>Web Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique itaque fugiat neque nihil dolores</p>
+                        <p>Desarrollo de estructuras en HTML,CSS y JavaScript usando técnicas de FlexBox y Grid</p>
                     </div>
                     <div class="serviceBox">
                         <img src="{{asset('assets/img/portafolio/icon2.png')}}" alt="img Web Design">
                         <h2>Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique itaque fugiat neque nihil dolores</p>
+                        <p>Análisis e implementación de nuevas funcionabilidades en proyectos nuevos y ejecución</p>
                     </div>
                     <div class="serviceBox">
-                        <img src="{{asset('assets/img/portafolio/icon3.png')}}" alt="img Web Design">
+                        <img src="{{asset('assets/img/portafolio/icon7.png')}}" alt="img Web Design">
                         <h2>Android Apps</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique itaque fugiat neque nihil dolores</p>
+                        <p>Experiencias Con bases de datos MySQL, Mogodb y Firebase curador de Datos.</p>
                     </div>
                     <div class="serviceBox">
-                        <img src="{{asset('assets/img/portafolio/icon4.png')}}" alt="img Web Design">
+                        <img src="{{asset('assets/img/portafolio/icon9.png')}}" alt="img Web Design">
                         <h2>Photography</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique itaque fugiat neque nihil dolores</p>
+                        <p>Experiencia con ilustraciones, imágenes y modificaciones en Adobe Photoshop </p>
                     </div>
                     <div class="serviceBox">
-                        <img src="{{asset('assets/img/portafolio/icon5.png')}}" alt="img Web Design">
+                        <img src="{{asset('assets/img/portafolio/icon8.png')}}" alt="img Web Design">
                         <h2>Content Writing</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique itaque fugiat neque nihil dolores</p>
+                        <p>Trabajo en equipo con proyectos de código abierto en Github y Gitlab</p>
                     </div>
                     <div class="serviceBox">
-                        <img src="{{asset('assets/img/portafolio/icon6.png')}}" alt="img Web Design">
+                        <img src="{{asset('assets/img/portafolio/icon10.png')}}" alt="img Web Design">
                         <h2>Video Editing</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique itaque fugiat neque nihil dolores</p>
+                        <p>Experiencia con ilustraciones, videos y modificaciones en Wondershare Filmora9 </p>
                     </div>
                 </div>
                </section> 
@@ -741,69 +741,69 @@
                {{-- Project --}}
                <section class="projects adjust" id="projects">
                 <div class="title">
-                    <h2>Recent Work</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h2>Practicas recientes</h2>
+                    <p>Prácticas y desarrollos personales subidos en Heroku, Firebase y Netlify.</p>
                 </div>
                 <div class="content">
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img1.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg1.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 01</h3>
+                            <a href="https://auth-firebase-d6015.web.app/login"><h3>Auth CRUD Tarea</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img2.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg2.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 02</h3>
+                            <a href="https://slideshowreract.netlify.app/"><h3>Slider</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img3.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg3.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 03</h3>
+                            <a href="https://validacionformulario.netlify.app/"><h3>Validacion JS</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img4.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg4.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 04</h3>
+                            <a href="https://primerdesplige.netlify.app/"><h3>CRUD DataMovil</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img5.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg5.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 05</h3>
+                            <a href="https://happy-jackson-3670ef.netlify.app/"><h3>CRUD DataMovil</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img6.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg6.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 06</h3>
+                            <a href="https://compassionate-knuth-e32ab9.netlify.app/"><h3>Calculara Cipto</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img7.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg7.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 07</h3>
+                            <a href="https://thirsty-dubinsky-d27e2c.netlify.app/"><h3>Auto Precio</h3></a>
                         </div>
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img8.jpg')}}" alt="img Web Design">
+                            <img src="{{asset('assets/img/portafolio/Proyectos/pimg8.png')}}" alt="img Web Design">
                         </div>
                         <div class="textBx">
                             <h3>Projet 08</h3>
