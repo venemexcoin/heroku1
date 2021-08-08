@@ -28,13 +28,13 @@
 							<li>
 								<a href="#">Correos</a>
 								<ul>
-									<li><a href="{{route('portafolio')}}">Entrantes</a></li>
+									<li><a href="{{route('admin/email')}}">Entrantes</a></li>
 									<li><a href="right-sidebar.html">Salientes</a></li>
 									<li><a href="no-sidebar.html">Filtrado</a></li>
 									<li>
 										<a href="#">Submenu</a>
 										<ul>
-											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 1</a></li> admin/email
 											<li><a href="#">Option 2</a></li>
 											<li><a href="#">Option 3</a></li>
 											<li><a href="#">Option 4</a></li>
@@ -42,7 +42,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="elements.html">Pendientes</a></li>
+							<li><a href="{{route('portafolio')}}">Perfil</a></li>
                             <li><a class="button primary" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
                             <form id="logout-form" method="POST" action="{{route('logout')}}">
                                 @csrf                               
@@ -85,3 +85,5 @@
 
 	</body>
 </html>
+
+{{-- G:\##__nuevaTrabajo\Pnatillas-para-perfil\html5up-landed --}}

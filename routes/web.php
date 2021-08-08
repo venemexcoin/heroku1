@@ -5,6 +5,7 @@ use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\PortafolioComponent;
 use App\Http\Livewire\PortafolioDetailComponent;
 use App\Http\Livewire\Admin\AdminHomeComponet;
+use App\Http\Livewire\Admin\EmailComponen;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +34,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function() {
     Route::get('/admin/adminhome', AdminHomeComponet::class)->name('admin/adminhome');
+    Route::get('/admin/email', EmailComponen::class)->name('admin/email');
 });
