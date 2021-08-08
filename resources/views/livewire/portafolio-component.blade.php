@@ -669,8 +669,8 @@
                         <p>Desarrolladora web creativa de back-end. </p>
                         <a href="{{route('portafolio/detail')}}" class="btn">Download My CV</a>
                         <ul class="socialMedia">
-                            <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="facebook"><a href="https://www.facebook.com/venemexcoin.venemexcoin.3/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="twitter"><a href="https://twitter.com/chamocellDV"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li class="linkedin"><a href="https://www.linkedin.com/in/eduardo-liendo-152243120/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             <li class="github"><a href="https://github.com/venemexcoin"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                         </ul>
