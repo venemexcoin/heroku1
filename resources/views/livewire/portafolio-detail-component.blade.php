@@ -349,7 +349,7 @@
                 <h2 class="title2">Profile</h2>
                         <p class="profile">Me considero una persona emprendedora y con gran capacidad de análisis. Ya, con varios años de experiencias
                      de trabajo en varios rublos de tecnologia, tengo las habilidades y aptitudes necesarias para solucionar problemas complejos,
-                      porponiendo soluciones eficientes y permanentes que den resultados a corto plazo. Además me gusta el trabajo en 
+                      proponiendo soluciones eficientes y permanentes que den resultados a corto plazo. Además me gusta el trabajo en 
                       equipo y soy muy compañero.<br/><br/>
                     De mis cualidades destaco mi perseverancia y el profesionalismo que tengo cuando encaro nuevos proyectos.
                      Con mi larga experiencia de trabajo puedo aportar a la empresa sabiduría en mis funciones y ejercer tareas 
