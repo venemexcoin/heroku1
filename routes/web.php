@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\PortafolioComponent;
 use App\Http\Livewire\PortafolioDetailComponent;
+use App\Http\Livewire\Admin\AdminHomeComponet;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +25,12 @@ Route::get('/home', HomeComponent::class);
 
 Route::get('/',PortafolioComponent::class)->name('portafolio');
 Route::get('/portafolio/detail', PortafolioDetailComponent::class)->name('portafolio/detail');
+Route::get('/admin/adminhome', AdminHomeComponet::class)->name('admin/adminhome');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::middleware(['auth:sanctum', 'verified'])->group(function() {
+    Route::get('/admin/adminhome', AdminHomeComponet::class)->name('admin/adminhome');
+});
