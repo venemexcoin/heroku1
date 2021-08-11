@@ -510,6 +510,16 @@
      text-align: center;
      margin-bottom: 30px;
  }
+ .contactForm .row2 .mensaje {
+        width: 100%
+
+    }
+.alert-succes {
+    color: green;
+}    
+.text-danger{
+    color: rgb(248, 4, 4);
+}    
 
  /* Dark and Light mode switch */
 
@@ -634,6 +644,8 @@
     .copyright {
         padding: 10px 20px;
     }
+    
+
 }
 
 </style>
@@ -874,22 +886,43 @@
                     <h2>Gracias Por ver mi CV</h2>
                     <p>Estamos A tu orden para propuestas de trabajo contáctame.</p>
                 </div>
+
+                @if (Session::has('message'))
+                    <div class="alert alert-succes" role="alert">{{Session::get('message')}}</div>
+                @endif
+                <form wire:submit.prevent="sendMenssage">
                 <div class="contactForm">
                     <div class="row">
-                        <input type="text" name="firstname" placeholder="First Name">
-                        <input type="text" name="lasname" placeholder="Last Name">
+                        <div class="contenedor">
+                        <input type="text" name="name" placeholder="Name" wire:model="name">
+                        @error('name') <p class="text-danger">{{$message}}</p> @enderror   
+                        </div>    
+                        <div class="contenedor">
+                        <input type="text" name="company" placeholder="Company" wire:model="company">
+                        @error('company') <p class="text-danger">{{$message}}</p> @enderror
+                        </div>
                     </div>
                     <div class="row">
-                        <input type="text" name="email" placeholder="Email Address">
-                        <input type="text" name="mobil" placeholder="Mobile N.">
+                        <div class="contenedor">
+                        <input type="text" name="email" placeholder="Email Address" wire:model="email">
+                        @error('email') <p class="text-danger">{{$message}}</p> @enderror
+                        </div>
+                        <div class="contenedor">
+                        <input type="text" name="phone" placeholder="Mobile N." wire:model="phone">
+                        @error('phone') <p class="text-danger">{{$message}}</p> @enderror
+                        </div>
                     </div>
                     <div class="row2">
-                        <textarea placeholder="Message"></textarea>
+                        <div class="contenedor mensaje">
+                        <textarea placeholder="Message" wire:model="message"></textarea>
+                        @error('message') <p class="text-danger">{{$message}}</p> @enderror
+                        </div>
                     </div>
                     <div class="row2">
                         <input type="submit" value="Send">
                     </div>
                 </div>
+                </form>
                </section>
                
                {{-- Copyright Text --}}

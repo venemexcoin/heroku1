@@ -32,12 +32,12 @@
 									<li><a href="right-sidebar.html">Salientes</a></li>
 									<li><a href="no-sidebar.html">Filtrado</a></li>
 									<li>
-										<a href="#">Submenu</a>
+										<a href="#">Ir</a>
 										<ul>
-											<li><a href="#">Option 1</a></li> admin/email
-											<li><a href="#">Option 2</a></li>
+											<li class"admin"><a href="{{route('admin/adminhome')}}">Admin</a></li> 
+											{{-- <li><a href="#">Option 2</a></li>
 											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
+											<li><a href="#">Option 4</a></li> --}}
 										</ul>
 									</li>
 								</ul>

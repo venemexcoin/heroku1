@@ -10,6 +10,9 @@
         .fa-check-circle{
             color: green;
         }
+        .admin {
+            display: block;
+        }
     </style>
 @endpush
 

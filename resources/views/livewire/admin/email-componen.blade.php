@@ -52,7 +52,7 @@
                     <tr>
                         <th>Id</th>
                         <th>FullName</th>
-                        <th>Copaning</th>
+                        <th>Company</th>
                         <th>Email</th>
                         <th>Phone</th>
                         <th>Feha</th>
@@ -63,7 +63,7 @@
                     <tr>
                         <td data-title="Id: ">1</td>
                         <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Companig: ">La costeña</td>
+                        <td data-title="Company: ">La costeña</td>
                         <td data-title="Email: ">lacosteña@lacosteña.com</td>
                         <td data-title="Phone: ">5514589865</td>
                         <td data-title="Fecha: ">20/09/2021</td>
@@ -72,7 +72,7 @@
                     <tr>
                         <td data-title="Id: ">2</td>
                         <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Companig: ">La costeña</td>
+                        <td data-title="Company: ">La costeña</td>
                         <td data-title="Email: ">lacosteña@lacosteña.com</td>
                         <td data-title="Phone: ">5514589865</td>
                         <td data-title="Fecha: ">20/09/2021</td>
@@ -81,7 +81,7 @@
                     <tr>
                         <td data-title="Id: ">3</td>
                         <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Companig: ">La costeña</td>
+                        <td data-title="Company: ">La costeña</td>
                         <td data-title="Email: ">lacosteña@lacosteña.com</td>
                         <td data-title="Phone: ">5514589865</td>
                         <td data-title="Fecha: ">20/09/2021</td>
@@ -90,7 +90,7 @@
                     <tr>
                         <td data-title="Id: ">4</td>
                         <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Companig: ">La costeña</td>
+                        <td data-title="Company: ">La costeña</td>
                         <td data-title="Email: ">lacosteña@lacosteña.com</td>
                         <td data-title="Phone: ">5514589865</td>
                         <td data-title="Fecha: ">20/09/2021</td>
@@ -99,7 +99,7 @@
                     <tr>
                         <td data-title="Id: ">5</td>
                         <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Companig: ">La costeña</td>
+                        <td data-title="Company: ">La costeña</td>
                         <td data-title="Email: ">lacosteña@lacosteña.com</td>
                         <td data-title="Phone: ">5514589865</td>
                         <td data-title="Fecha: ">20/09/2021</td>
