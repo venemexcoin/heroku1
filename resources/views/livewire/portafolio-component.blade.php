@@ -1004,56 +1004,7 @@
         main.classList.remove('active');
     } 
 
-    // Validacion con JavaScript
-
-//     const formulario = document.getElementById('formulario')
-//     const inputs = document.querySelectorAll('#formulario input')
-
-//     const expresiones = {
-//     usuario: /^[a-zA-Z0-9_-]{4,16}$/, // Letras, numeros, guion y guion_bajo
-//     nombre: /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u, // Letras y espacios, pueden llevar acentos.
-//     password: /^.{4,12}$/, // 4 a 12 digitos.
-//     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-//     telefono: /^\d{7,14}$/ // 7 a 14 numeros.
-//   }
-
-//   const validarFormulsrio = (e) => {
-//     switch(e.target.name){
-//         case "name":
-//                validarCampo(expresiones.usuario,e.target, 'name')
-//         break;
-//         case "company":
-//             validarCampo(expresiones.nombre,e.target, 'company')
-//         break;
-//         case "email":
-//             validarCampo(expresiones.email,e.target, 'email')
-//         break;
-//         case "phone":
-//             validarCampo(expresiones.telefono,e.target, 'phone')
-//         break;
-//     }
-//   }
-
-//   const validarCampo = (expresion,input,campo) => {
-//     if(expresion.test(input.value)){
-//                 document.getElementById(`grupo__${campo}`).classList.remove('form__group-false');
-//                 document.getElementById(`grupo__${campo}`).classList.add('form__group-true');
-//                 document.querySelector(`#grupo__${campo} .text__group-error`).classList.remove('text__group-error-active');
-//             }else {
-//                 document.getElementById(`grupo__${campo}`).classList.add('form__group-false');
-//                 document.querySelector(`#grupo__${campo} .text__group-error`).classList.add('text__group-error-active');
-//             } 
-//   }
-
-//   inputs.forEach((input) => {
-//       input.addEventListener('keyup', validarFormulsrio);
-//       input.addEventListener('blur', validarFormulsrio);
-
-//   }); 
-
-//   formulario.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//   });
+    
 </script>
 @endpush
 

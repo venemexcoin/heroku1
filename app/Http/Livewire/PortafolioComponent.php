@@ -21,7 +21,7 @@ class PortafolioComponent extends Component
             'company' => 'required',
             'email'   => 'required|email',
             'phone'  => 'required|numeric|min:10 max:10',
-            'message' => 'required'
+            'message' => 'required|max:140'
         ]);
 
     }
@@ -33,7 +33,7 @@ class PortafolioComponent extends Component
             'company' => 'required',
             'email'   => 'required|email',
             'phone'  => 'required|number|min:10 max:10',
-            'message' => 'required'
+            'message' => 'required|max:140'
         ]);
 
         $contact = new Email();
