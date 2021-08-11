@@ -60,51 +60,17 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach($emails as $email)
                     <tr>
-                        <td data-title="Id: ">1</td>
-                        <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Company: ">La costeña</td>
-                        <td data-title="Email: ">lacosteña@lacosteña.com</td>
-                        <td data-title="Phone: ">5514589865</td>
-                        <td data-title="Fecha: ">20/09/2021</td>
-                        <td data-title="Message: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis eveniet veniam iure maxime aliquid, quia omnis in quas delectus! Sint quo maxime ipsa accusamus natus, </td>
+                        <td data-title="Id: ">{{$email->id}}</td>
+                        <td data-title="Name: ">{{$email->name}}</td>
+                        <td data-title="Company: ">{{$email->company}}</td>
+                        <td data-title="Email: ">{{$email->email}}</td>
+                        <td data-title="Phone: ">{{$email->phone}}</td>
+                        <td data-title="Fecha: ">{{$email->created_at}}</td>
+                        <td data-title="Message: ">{{$email->message}}</td>
                     </tr>
-                    <tr>
-                        <td data-title="Id: ">2</td>
-                        <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Company: ">La costeña</td>
-                        <td data-title="Email: ">lacosteña@lacosteña.com</td>
-                        <td data-title="Phone: ">5514589865</td>
-                        <td data-title="Fecha: ">20/09/2021</td>
-                        <td data-title="Message: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis eveniet veniam iure maxime aliquid, quia omnis in quas delectus! Sint quo maxime ipsa accusamus natus, </td>
-                    </tr>
-                    <tr>
-                        <td data-title="Id: ">3</td>
-                        <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Company: ">La costeña</td>
-                        <td data-title="Email: ">lacosteña@lacosteña.com</td>
-                        <td data-title="Phone: ">5514589865</td>
-                        <td data-title="Fecha: ">20/09/2021</td>
-                        <td data-title="Message: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis eveniet veniam iure maxime aliquid, quia omnis in quas delectus! Sint quo maxime ipsa accusamus natus, </td>
-                    </tr>
-                    <tr>
-                        <td data-title="Id: ">4</td>
-                        <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Company: ">La costeña</td>
-                        <td data-title="Email: ">lacosteña@lacosteña.com</td>
-                        <td data-title="Phone: ">5514589865</td>
-                        <td data-title="Fecha: ">20/09/2021</td>
-                        <td data-title="Message: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis eveniet veniam iure maxime aliquid, quia omnis in quas delectus! Sint quo maxime ipsa accusamus natus, </td>
-                    </tr>
-                    <tr>
-                        <td data-title="Id: ">5</td>
-                        <td data-title="Name: ">Pedro carrero</td>
-                        <td data-title="Company: ">La costeña</td>
-                        <td data-title="Email: ">lacosteña@lacosteña.com</td>
-                        <td data-title="Phone: ">5514589865</td>
-                        <td data-title="Fecha: ">20/09/2021</td>
-                        <td data-title="Message: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis eveniet veniam iure maxime aliquid, quia omnis in quas delectus! Sint quo maxime ipsa accusamus natus, </td>
-                    </tr>
+                    @endforeach
                 </tbody>
                 
             </table>

@@ -10,6 +10,6 @@ class EmailComponen extends Component
     public function render()
     {
         $emails = Email::paginate(12); 
-        return view('livewire.admin.email-componen',['email'=>$emails])->layout('layouts.blanco');
+        return view('livewire.admin.email-componen',['emails'=>$emails])->layout('layouts.blanco');
     }
 }
