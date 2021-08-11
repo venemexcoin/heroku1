@@ -267,7 +267,7 @@
         <div class="left_Side">
             <div class="profileText">
                 <div class="imgBx">
-                    <img src="{{asset('assets/img/portafolio/img1yo.jpeg')}}" alt="">
+                    <img src="https://i.postimg.cc/rFhg7HpS/img1yo.jpg" alt="">
                 </div>
                 <h2>EDuardo Liendo<br><span>Web Developer</span></h2>
             </div>

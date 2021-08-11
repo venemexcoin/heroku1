@@ -20,7 +20,7 @@ class PortafolioComponent extends Component
             'name'    => 'required',
             'company' => 'required',
             'email'   => 'required|email',
-            'phone'  => 'required',
+            'phone'  => 'required|numeric|min:10 max:10',
             'message' => 'required'
         ]);
 
@@ -32,7 +32,7 @@ class PortafolioComponent extends Component
             'name'    => 'required',
             'company' => 'required',
             'email'   => 'required|email',
-            'phone'  => 'required',
+            'phone'  => 'required|number|min:10 max:10',
             'message' => 'required'
         ]);
 

@@ -30,6 +30,11 @@
      --white: #333;
      --white2: #444;
  }
+
+ .infoError {
+     --falso: #bb2929;
+     --verdadero: rgb(7, 253, 7);
+ }
  body {
      font-family:'Poppins', sans-serif;
      overflow-x: hidden;
@@ -480,7 +485,9 @@
      background: var(--white2);
      font-size: 16px;
      border: 1px solid rgba(0,0,0,0.1);
+     border-radius: 5px;
  }
+ 
  .contact .contactForm .row2 textarea {
      resize: none;
      height: 200px;
@@ -558,6 +565,8 @@
      letter-spacing: 1px;
      pointer-events: none;
  }
+
+ 
 
  .dark .themeSwitch::after {
     content: 'Switch To Day Mode';
@@ -648,6 +657,21 @@
 
 }
 
+.contact .contactForm .row .text__group-error {
+    color: #bb2929;
+    display: none;
+}
+.contact .contactForm .row .text__group-error-active{
+    display: block;
+}
+.contact .contactForm .row .form__group-false  {
+    border: 3px solid #bb2929;
+}
+.contact .contactForm .row .form__group-true  {
+    border: 3px solid #1eb12d;
+    border-radius:5px;
+}
+
 </style>
 @endpush
 <div>
@@ -675,7 +699,7 @@
                 <section class="banner" id="banner">
                     <div class="content">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img1yo.jpeg')}}" alt="Foto de perfil">
+                            <img src="https://i.postimg.cc/rFhg7HpS/img1yo.jpg" alt="Foto de perfil">
                         </div>
                         <h3>Eduardo Liendo Berroteran</h3>
                         <p>Desarrolladora web creativa de back-end. </p>
@@ -890,31 +914,48 @@
                 @if (Session::has('message'))
                     <div class="alert alert-succes" role="alert">{{Session::get('message')}}</div>
                 @endif
-                <form wire:submit.prevent="sendMenssage">
+                <form wire:submit.prevent="sendMenssage" id="formulario">
+
                 <div class="contactForm">
                     <div class="row">
+                        <div id="grupo__name">
                         <div class="contenedor">
-                        <input type="text" name="name" placeholder="Name" wire:model="name">
+                        <input type="text" name="name" id="grupo__name" placeholder="Name" wire:model="name" autocomplete="off">
+                        <p class="text__group-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
                         @error('name') <p class="text-danger">{{$message}}</p> @enderror   
-                        </div>    
+                        </div>
+                    </div>
+                        
+                    <div id="grupo__Company">
                         <div class="contenedor">
                         <input type="text" name="company" placeholder="Company" wire:model="company">
+                        <p class="text__group-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
                         @error('company') <p class="text-danger">{{$message}}</p> @enderror
                         </div>
+                    </div>    
                     </div>
+
                     <div class="row">
+                        <div id="grupo__email">
                         <div class="contenedor">
                         <input type="text" name="email" placeholder="Email Address" wire:model="email">
+                        <p class="text__group-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
                         @error('email') <p class="text-danger">{{$message}}</p> @enderror
                         </div>
+                        </div>
+
+                        <div id="grupo__phone">
                         <div class="contenedor">
                         <input type="text" name="phone" placeholder="Mobile N." wire:model="phone">
+                        <p class="text__group-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
                         @error('phone') <p class="text-danger">{{$message}}</p> @enderror
                         </div>
+                        </div>
                     </div>
+
                     <div class="row2">
                         <div class="contenedor mensaje">
-                        <textarea placeholder="Message" wire:model="message"></textarea>
+                        <textarea placeholder="Message" name="message" wire:model="message"></textarea>
                         @error('message') <p class="text-danger">{{$message}}</p> @enderror
                         </div>
                     </div>
@@ -962,6 +1003,57 @@
         navigation.classList.remove('active');
         main.classList.remove('active');
     } 
+
+    // Validacion con JavaScript
+
+//     const formulario = document.getElementById('formulario')
+//     const inputs = document.querySelectorAll('#formulario input')
+
+//     const expresiones = {
+//     usuario: /^[a-zA-Z0-9_-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+//     nombre: /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u, // Letras y espacios, pueden llevar acentos.
+//     password: /^.{4,12}$/, // 4 a 12 digitos.
+//     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+//     telefono: /^\d{7,14}$/ // 7 a 14 numeros.
+//   }
+
+//   const validarFormulsrio = (e) => {
+//     switch(e.target.name){
+//         case "name":
+//                validarCampo(expresiones.usuario,e.target, 'name')
+//         break;
+//         case "company":
+//             validarCampo(expresiones.nombre,e.target, 'company')
+//         break;
+//         case "email":
+//             validarCampo(expresiones.email,e.target, 'email')
+//         break;
+//         case "phone":
+//             validarCampo(expresiones.telefono,e.target, 'phone')
+//         break;
+//     }
+//   }
+
+//   const validarCampo = (expresion,input,campo) => {
+//     if(expresion.test(input.value)){
+//                 document.getElementById(`grupo__${campo}`).classList.remove('form__group-false');
+//                 document.getElementById(`grupo__${campo}`).classList.add('form__group-true');
+//                 document.querySelector(`#grupo__${campo} .text__group-error`).classList.remove('text__group-error-active');
+//             }else {
+//                 document.getElementById(`grupo__${campo}`).classList.add('form__group-false');
+//                 document.querySelector(`#grupo__${campo} .text__group-error`).classList.add('text__group-error-active');
+//             } 
+//   }
+
+//   inputs.forEach((input) => {
+//       input.addEventListener('keyup', validarFormulsrio);
+//       input.addEventListener('blur', validarFormulsrio);
+
+//   }); 
+
+//   formulario.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//   });
 </script>
 @endpush
 
