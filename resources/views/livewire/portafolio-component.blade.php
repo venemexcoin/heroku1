@@ -842,10 +842,10 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img8.jpg')}}" alt="img Web Design">
+                            <img src="https://i.postimg.cc/Bvr9Xsb8/tienda.png" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 08</h3>
+                            <a href="https://chamoceltienda.herokuapp.com/"><h3>Proyecto Desarrollo</h3></a>                
                         </div>
                     </div>
                     <div class="workBx">

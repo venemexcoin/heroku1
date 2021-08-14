@@ -136,6 +136,7 @@
         left: 0;
         height: 100%;
         background: #03a9f4;
+        animation:animate-string 3s linear;
     } 
 
     .contactInfo a {
@@ -209,6 +210,7 @@
         left: 0;
         height: 100%;
         background: #03a9f4;
+        animation:animate-string 3s linear;
     }
     .interest ul {
         display: grid;
@@ -256,6 +258,16 @@
         .skills .box
         {
             grid-template-columns: repeat(1,1fr)
+        }
+    }
+
+    @keyframes animate-string {
+        0% {
+            width:0%;
+        }
+        
+        100% {
+            width:100%;
         }
     }
 </style>
