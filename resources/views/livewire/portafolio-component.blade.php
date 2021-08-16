@@ -703,7 +703,7 @@
                         </div>
                         <h3>Eduardo Liendo Berroteran</h3>
                         <p>Desarrolladora web creativa de back-end. </p>
-                        <a href="{{route('portafolio/detail')}}" class="btn">Download My CV</a>
+                        <a href="{{route('portafolio/detail')}}" class="btn">Ver mi CV</a>
                         <ul class="socialMedia">
                             <li class="facebook"><a href="https://www.facebook.com/venemexcoin.venemexcoin.3/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li class="twitter"><a href="https://twitter.com/chamocelldevel1"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
