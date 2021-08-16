@@ -756,7 +756,7 @@
                     </div>
                     <div class="serviceBox">
                         <img src="{{asset('assets/img/portafolio/icon7.png')}}" alt="img Web Design">
-                        <h2>Android Apps</h2>
+                        <h2>Bases de Datos</h2>
                         <p>Experiencias Con bases de datos MySQL, Mogodb y Firebase curador de Datos.</p>
                     </div>
                     <div class="serviceBox">
