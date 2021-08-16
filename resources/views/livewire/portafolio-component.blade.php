@@ -644,8 +644,15 @@
     .tstimonials .content {
         grid-template-columns: repeat(1,2fr); 
     }
+    .contact .contactForm{
+        width: 100%; 
+    }
+    .contact .contactForm .contactForm{
+        width: 100%;
+    }
     .contact .contactForm .row {
-        grid-template-columns: repeat(1,2fr);  
+        grid-template-columns: repeat(1,2fr); 
+        
     }
     .contact {
         margin-bottom: 100px; 

@@ -32,7 +32,7 @@ class PortafolioComponent extends Component
             'name'    => 'required',
             'company' => 'required',
             'email'   => 'required|email',
-            'phone'  => 'required|number|min:10 max:10',
+            'phone'  => 'required|numeric|min:10 max:10',
             'message' => 'required|max:140'
         ]);
 
