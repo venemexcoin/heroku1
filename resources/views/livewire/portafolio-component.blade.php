@@ -850,15 +850,15 @@
                     </div>
                     <div class="workBx">
                         <div class="imgBx">
-                            <img src="{{asset('assets/img/portafolio/img9.jpg')}}" alt="img Web Design">
+                            <img src="https://i.postimg.cc/cHFJSZWk/ejercicios-Diarios.png" alt="img Web Design">
                         </div>
                         <div class="textBx">
-                            <h3>Projet 09</h3>
+                            <a href="https://diarioejercicios.herokuapp.com/"><h3>Practicas diarias</h3></a> 
                         </div>
                     </div>
                 </div>
                </section> 
-
+               
                {{-- testimonials --}}
                {{-- <section class="tstimonials adjust" id="testimonials">
                 <div class="title">
